@@ -8,7 +8,7 @@ const VideoComponent = () => {
             <iframe
               title="video"
               src="https://www.facebook.com/plugins/video.php?height=322&href=https%3A%2F%2Fwww.facebook.com%2F100006113465295%2Fvideos%2F2743616872518735%2F&show_text=false&width=560&t=0"
-              width="500"
+              width="450"
               height="300"
               scrolling="no"
               frameBorder="0"
@@ -20,7 +20,7 @@ const VideoComponent = () => {
             <iframe
               title="video 1"
               src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100006113465295%2Fvideos%2F2743616055852150%2F&show_text=false&width=560&t=0"
-              width="500"
+              width="450"
               height="300"
               scrolling="no"
               frameBorder="0"

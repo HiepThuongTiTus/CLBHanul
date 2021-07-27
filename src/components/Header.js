@@ -57,14 +57,33 @@ const HeaderComponent = () => {
             </div>
           </div>
         </div>
-        <div className="polaroid rotate_right">
+        <div className="polaroid rotate_left">
           <img src="1.jpg" alt="Pulpit rock" width="100" height="120" />
-          <p className="caption">Talent</p>
         </div>
 
         <div className="polaroid rotate_left">
-          <img src="2.jpg" alt="Monterosso al Mare" width="100" height="80" />
-          <p className="caption">Hanul Taekwondo</p>
+          <img src="2.jpg" alt="Monterosso al Mare" width="100" height="120" />
+        </div>
+        <p className="rotate_center"> Welcome to Taekwondo</p>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-9 col-xs-6 col-sm-6">
+              <img
+                src="2.jpg"
+                alt="Monterosso al Mare"
+                width="100"
+                height="120"
+              />
+            </div>
+            <div className="col-md-3 col-xs-6 col-sm-6">
+              <img
+                src="2.jpg"
+                alt="Monterosso al Mare"
+                width="100"
+                height="120"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </div>
