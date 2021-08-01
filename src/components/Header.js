@@ -7,20 +7,10 @@ const HeaderComponent = () => {
 
   return (
     <div>
-      <section className="nav-title">
-        <div className="item t0">
-          <i className="fa fa-map-marker" aria-hidden="true"></i> 08 Nguyễn
-          Chánh - Đà Nẵng
-        </div>
-        <div className="item t1">
-          <i className="fa fa-phone t"></i> 0961547617
-        </div>
-      </section>
       <section>
-        <img className="titleanh" src="nen.jpg" alt="Hiep" />
         <div className="topnav" id="myTopnav">
           <a href="/home" className="tile">
-            TAEKWONDO HANUL
+            TAEKWONDO <strong> HANUL</strong>
           </a>
           <a href="/home">TRANG CHỦ</a>
           <a href="#activate">HOẠT ĐỘNG</a>
@@ -36,16 +26,10 @@ const HeaderComponent = () => {
             </a>
           )}
           <a href="https://forms.office.com/r/9ZYxp4jSaS">ĐĂNG KÝ</a>
-          <a href="/" className="icon">
-            <i className="fa fa-bars"></i>
-          </a>
+     
         </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-9">
-              <h3 className="titlechu">TAEKWONDO HANUL</h3>
-            </div>
-            <div className="col-lg-3 d-flex align-items-center justify-content-center">
+        <img className="titleanh" src="taekwondo-han-quoc.jpg" alt="Hiep" />
+             <div>
               <a
                 href="https://www.facebook.com/plugins/video.php?height=317&href=https%3A%2F%2Fwww.facebook.com%2Fhanuldanangclub%2Fvideos%2F766767617306932%2F&show_text=false&width=560&t=0"
                 className="venobox play-btn"
@@ -55,34 +39,6 @@ const HeaderComponent = () => {
                 {""}
               </a>
             </div>
-          </div>
-        </div>
-        <div className="polaroid rotate_left">
-          <img src="1.jpg" alt="Pulpit rock" width="100" height="120" />
-        </div>
-        <p className="rotate_center"> Welcome to Taekwondo</p>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-8 col-xs-6 col-sm-6">
-              <img
-                src="2.jpg"
-                alt="Monterosso al Mare"
-                width="250px"
-                height="120"
-                style={{padding: '10px'}}
-              />
-            </div>
-            <div className="col-md-4 col-xs-6 col-sm-6">
-              <img
-                src="2.jpg"
-                alt="Monterosso al Mare"
-                width="100%"
-                height="150"
-                style={{padding: '5px'}}
-              />
-            </div>
-          </div>
-        </div>
       </section>
     </div>
   );

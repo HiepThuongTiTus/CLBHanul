@@ -42,7 +42,6 @@ const Login = () => {
           <Row className="input-group">
             <Col span={12} offset={6}>
               <img src="logo.jpg" className="imglogo text-center" alt="Hiep" />
-              <img src="laco.png" className="imglogo text-center" alt="Hiep" />
             </Col>
             <h2 className="textlogin"> Đăng nhập </h2>
             <Col span={20} offset={2}>

@@ -199,8 +199,8 @@ const LayoutMaster =()=>{
           <Detail/>
           <Teams/>
           <About/>
-          <Lienlac/>
           <Video/>
+          <Lienlac/>
           <Footer/>
      </div>
    )
