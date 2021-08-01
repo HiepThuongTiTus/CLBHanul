@@ -2,7 +2,7 @@ import React from "react";
 import { Image } from "antd";
 const DetailComponent = () => {
   return (
-    <div class="detail-acti">
+    <div className="detail-acti">
       <section id="activate">
         <h2 className="textt">HOẠT ĐỘNG</h2>
         <div className="container">

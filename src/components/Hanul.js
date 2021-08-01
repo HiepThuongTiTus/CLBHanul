@@ -48,7 +48,7 @@ const HanulComponent = () => {
               <form action="/home">
                 <input
                   type="submit"
-                  class="btn btn-secondary"
+                  className="btn btn-secondary"
                   value="Quay về"
                 />
               </form>
