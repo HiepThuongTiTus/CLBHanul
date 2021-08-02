@@ -8,33 +8,33 @@ const HanulComponent = () => {
       <div className="container container-title">
         <div className="row">
           <div className="col-md-3">
-            <ul>
-              <li>
-                <a href="#1">Đăng kí huấn luyện đai trắng</a>
+            <ul class="hanull">
+              <li class="hanull1">
+                <a href="#1" class="hanull2">Đăng kí huấn luyện đai trắng</a>
               </li>
-              <li>
-                <a href="#2">Đăng kí cuộc thi đai vàng</a>
+              <li class="hanull1">
+                <a href="#2"class="hanull2">Đăng kí cuộc thi đai vàng</a>
               </li>
-              <li>
-                <a href="#3">Đăng kí đai xanh lá cây</a>
+              <li class="hanull1">
+                <a href="#3"class="hanull2">Đăng kí đai xanh lá cây</a>
               </li>
-              <li>
-                <a href="#4">Đăng kí đai xanh trời</a>
+              <li class="hanull1">
+                <a href="#4"class="hanull2">Đăng kí đai xanh trời</a>
               </li>
-              <li>
-                <a href="#5">Đăng kí đai đỏ</a>
+              <li class="hanull1">
+                <a href="#5"class="hanull2">Đăng kí đai đỏ</a>
               </li>
-              <li>
-                <a href="#6">Đăng kí cuộc thi đai đen(cấp 1)</a>
+              <li class="hanull1">
+                <a href="#6"class="hanull2">Đăng kí cuộc thi đai đen(cấp 1)</a>
               </li>
-              <li>
-                <a href="#1">Đăng kí cuộc thi đai đen(cấp 2)</a>
+              <li class="hanull1">
+                <a href="#1"class="hanull2">Đăng kí cuộc thi đai đen(cấp 2)</a>
               </li>
-              <li>
-                <a href="#1">Đăng kí khóa luyện tập tại CLB</a>
+              <li class="hanull1">
+                <a href="#1"class="hanull2">Đăng kí khóa luyện tập tại CLB</a>
               </li>
-              <li>
-                <a href="#1">Đăng kí khóa luyện tập tại CLB</a>
+              <li class="hanull1">
+                <a href="#1"class="hanull2">Đăng kí khóa luyện tập tại CLB</a>
               </li>
             </ul>
           </div>
