@@ -9,22 +9,19 @@ const AboutComponent = () => {
             <div className="card tt">
               <img src="5.jpg" alt="Card_image_cap" height="250px;" />
               <p className="tt1">
-                Taekwondo là một trong những bộ môn võ thuật yêu thích của người
-                Việt.
+                Taekwondo là bộ môn võ thuật yêu thích của người Việt.
               </p>
             </div>
             <div className="card tt">
               <img src="5.jpg" alt="Card_image_cap" height="250px;" />
               <p className="tt1">
-                Taekwondo là một trong những bộ môn võ thuật yêu thích của người
-                Việt.
+              Taekwondo là bộ môn võ thuật yêu thích của người Việt.
               </p>
             </div>
             <div className="card tt">
               <img src="5.jpg" alt="Card_image_cap" height="250px;" />
               <p className="tt1">
-                Taekwondo là một trong những bộ môn võ thuật yêu thích của người
-                Việt.
+              Taekwondo là bộ môn võ thuật yêu thích của người Việt.
               </p>
             </div>
           </div>

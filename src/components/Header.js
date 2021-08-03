@@ -88,11 +88,7 @@ export const HeaderComponent = (props) => {
             <div className="container">
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
-                    TAEKWONDO HANUL
-                    <span></span>
-                  </h1>
-                  <a
+                <a
                     href="https://www.facebook.com/plugins/video.php?height=317&href=https%3A%2F%2Fwww.facebook.com%2Fhanuldanangclub%2Fvideos%2F766767617306932%2F&show_text=false&width=560&t=0"
                     className="venobox play-btn"
                     data-vbtype="video"
@@ -100,6 +96,10 @@ export const HeaderComponent = (props) => {
                   >
                     {""}
                   </a>
+                  <h1 className="textvhutitle">
+                    TAEKWONDO HANUL
+                    <span></span>
+                  </h1>
                   <p>Welcome</p>
                   <a
                     href="#activate"

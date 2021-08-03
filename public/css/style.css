@@ -222,6 +222,12 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+header .textvhutitle{
+  color: wheat;
+}
+header .textvhutitle:hover{
+  color: rgb(238, 83, 12);
+}
  /* play */
  .play-btn {
     width: 94px;
@@ -368,6 +374,8 @@ header .intro-text {
 		  font-size: 20px;
 		  padding: 20px;
 		  font-weight: bold;
+      width: 550px;
+      display: inline-block;
 		}
 		.neww
 		{
