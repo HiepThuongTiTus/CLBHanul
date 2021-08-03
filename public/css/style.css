@@ -342,6 +342,15 @@ header .textvhutitle:hover{
     background-color: rgb(23, 177, 238);
   }
     /* about */
+    .card{
+      padding: 10px;
+    }
+    .card:hover{
+      padding: 2px;
+		  box-shadow: 2px;
+      transition: 0.5s;
+      background-color: sandybrown;
+    }
 	.gachdau{
 		padding: 15px; 
 		background-color: #c8cbe9;
@@ -374,8 +383,6 @@ header .textvhutitle:hover{
 		  font-size: 20px;
 		  padding: 20px;
 		  font-weight: bold;
-      width: 400px;
-      display: inline-block;
 		}
 		.neww
 		{

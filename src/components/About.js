@@ -6,23 +6,50 @@ const AboutComponent = () => {
         <div className="row">
           <div className="col-md-9">
             <h2 className="text1">GIỚI THIỆU</h2>
-            <div className="card tt">
-              <img src="5.jpg" alt="Card_image_cap" height="250px;" />
-              <p className="tt1">
-                Taekwondo là bộ môn võ thuật yêu thích của người Việt.
-              </p>
+            <div className="container">
+              <div className="row card">
+                <div className="col-md-6">
+                  <img
+                    src="5.jpg"
+                    alt="Card_image_cap"
+                    height="250px;"
+                    width="100%;"
+                  />
+                </div>
+                <div className="col-md-6">
+                  <p className="tt1">Taekwondo là bộ môn võ thuật yêu thích của người Việt.</p>
+                </div>
+              </div>
             </div>
-            <div className="card tt">
-              <img src="5.jpg" alt="Card_image_cap" height="250px;" />
-              <p className="tt1">
-              Taekwondo là bộ môn võ thuật yêu thích của người Việt.
-              </p>
+            <div className="container">
+              <div className="row card">
+                <div className="col-md-6">
+                  <img
+                    src="5.jpg"
+                    alt="Card_image_cap"
+                    height="250px;"
+                    width="100%;"
+                  />
+                </div>
+                <div className="col-md-6">
+                <p className="tt1">Taekwondo là bộ môn võ thuật yêu thích của người Việt.</p>
+                </div>
+              </div>
             </div>
-            <div className="card tt">
-              <img src="5.jpg" alt="Card_image_cap" height="250px;" />
-              <p className="tt1">
-              Taekwondo là bộ môn võ thuật yêu thích của người Việt.
-              </p>
+            <div className="container">
+              <div className="row card">
+                <div className="col-md-6">
+                  <img
+                    src="5.jpg"
+                    alt="Card_image_cap"
+                    height="250px;"
+                    width="100%;"
+                  />
+                </div>
+                <div className="col-md-6">
+                <p className="tt1">Taekwondo là bộ môn võ thuật yêu thích của người Việt.</p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-md-3">
