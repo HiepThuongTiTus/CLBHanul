@@ -100,7 +100,7 @@ export const HeaderComponent = (props) => {
                     TAEKWONDO HANUL
                     <span></span>
                   </h1>
-                  <p>Welcome</p>
+                  <p>08 Nguyễn Chánh - Đà Nẵng </p>
                   <a
                     href="#activate"
                     className="btn btn-custom btn-lg page-scroll"

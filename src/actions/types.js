@@ -1,6 +1,0 @@
-export const GET_DATA_HOCSINH = Symbol('Get_DATA_HOCSINH')
-export const START_GET_DATA_HOCSINH = Symbol('START_GET_DATA')
-export const GET_DATA_SUCESS = Symbol('START_GET_SUCESS')
-export const GET_DATA_FAIL = Symbol('GET_DATA_FAIL')
-export const STOP_GET_DATA_HOCSINH = Symbol('STOP_GET_DATA_HOCSINH')
-export const NOT_FOUND_DATA_HOCSINH= Symbol('NOT_FOUND_DATA_HOCSINH')

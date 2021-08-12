@@ -192,6 +192,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+  opacity: 0.9;
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
@@ -223,10 +224,10 @@ header .intro-text {
 	text-align: center;
 }
 header .textvhutitle{
-  color: wheat;
+  color: #f8f9fa;
 }
 header .textvhutitle:hover{
-  color: rgb(238, 83, 12);
+  color: #fb8b24;
 }
  /* play */
  .play-btn {
@@ -331,33 +332,33 @@ header .textvhutitle:hover{
   /* activity */
   .detail-acti{
     text-align: center;
-    background-color: #c8cbe9;
+    padding: 50px;
+   
   }
   .textt
   {
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
-    color: #ec5514;
-    background-color: rgb(23, 177, 238);
+    color: #023047;
+    background-color: #d8e2dc;
   }
     /* about */
     .card{
       padding: 10px;
     }
     .card:hover{
-      padding: 2px;
+      padding: 1px;
 		  box-shadow: 2px;
       transition: 0.5s;
-      background-color: sandybrown;
+      background-color: #a5a58d;
     }
 	.gachdau{
 		padding: 15px; 
-		background-color: #c8cbe9;
 	  }
 	  .gachdau1{
-		padding: 10px;
-		background-color: #c8cbe9;
+		padding: 5px;
+ 
 	  }
 	  
 	  .text1
@@ -366,8 +367,8 @@ header .textvhutitle:hover{
 		font-weight: bold;
 		text-align: center;
 		padding: 10px;
-		background-color: rgb(23, 177, 238);
-		color: #ec5514;
+	  color: #023047;
+    background-color: #d8e2dc;
 	  }
 	  .tt{
 		flex-direction: row;
@@ -414,11 +415,11 @@ header .textvhutitle:hover{
   .lienlac-chu{
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: #f8961e;
   }
   .lienlac-p{
     font-size: 15px;
-    color: #e6571f;
+    color: white;
   }
   .lienlac1{
     position: relative;
