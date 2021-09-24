@@ -72,7 +72,7 @@ hr {
 #menu.navbar-default {
 	background-color: #fff;
 	border-color: rgba(231, 231, 231, 0);
-	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+	box-shadow: 0 0 10px rgba(0,0,0,0.15);
 }
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
@@ -151,51 +151,19 @@ hr {
 .section-title p {
 	font-size: 18px;
 }
-.btn-custom {
-	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
-	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-	padding: 14px 34px;
-	letter-spacing: 1px;
-	margin: 0;
-	font-size: 15px;
-	font-weight: 500;
-	border-radius: 25px;
-	transition: all 0.5s linear;
-	border: 0;
-}
-.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #fff;
-	background-image: none;
-	background-color: #6372ff;
-}
-.btn:active, .btn.active {
-	background-image: none;
-	outline: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-	outline: none;
-	outline-offset: none;
-}
+
 /* Header Section */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/taekwondo-han-quoc.jpg) center center no-repeat;
+  margin-top: 80px;
+	background: url(../nen.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-  opacity: 0.9;
-}
-.intro .overlay {
-	background: rgba(0,0,0,0.2);
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
@@ -232,7 +200,7 @@ header .textvhutitle:hover{
  /* play */
  .play-btn {
     width: 94px;
-    left:35%;
+    /* left:35%; */
     height: 94px;
     background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
     border-radius: 50%;
@@ -332,26 +300,40 @@ header .textvhutitle:hover{
   /* activity */
   .detail-acti{
     text-align: center;
-    padding: 50px;
+    padding: 40px;
    
   }
   .textt
   {
-    font-size: 30px;
+    border-bottom: 2px solid rgb(43, 22, 228);
+    padding: 5px;
+    font-style: normal;
+    word-break: break-word;
+    text-align: left;
+    font-weight: 700;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+.spac{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+  /* teams */
+  .title_ti
+  {
+    text-align: center;
+    font-size: 20px;
     font-weight: bold;
-    padding: 10px;
-    color: #023047;
-    background-color: #d8e2dc;
+    padding: 5px;
+    border-style: dashed;
+    border-color: coral;
   }
     /* about */
     .card{
       padding: 10px;
     }
     .card:hover{
-      padding: 1px;
-		  box-shadow: 2px;
-      transition: 0.5s;
-      background-color: #a5a58d;
+		  padding: 5px;
     }
 	.gachdau{
 		padding: 15px; 
@@ -360,16 +342,7 @@ header .textvhutitle:hover{
 		padding: 5px;
  
 	  }
-	  
-	  .text1
-	  {
-		font-size: 30px;
-		font-weight: bold;
-		text-align: center;
-		padding: 10px;
-	  color: #023047;
-    background-color: #d8e2dc;
-	  }
+	 
 	  .tt{
 		flex-direction: row;
 		margin-bottom: 10px;
@@ -388,13 +361,14 @@ header .textvhutitle:hover{
 		.neww
 		{
 		  font-size: 15px;
-		  text-align: center;
+		  text-align: center;   
+      color: rgb(0, 0, 255);
 		}
 		.new1
 		{
 		  width: 100px;
 		  height: 150px;
-		  padding: 15px;
+		  padding: 10px;
 		}
 		.new1:hover{
 		  padding: 2px;

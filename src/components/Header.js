@@ -96,17 +96,6 @@ export const HeaderComponent = (props) => {
                   >
                     {""}
                   </a>
-                  <h1 className="textvhutitle">
-                    TAEKWONDO HANUL
-                    <span></span>
-                  </h1>
-                  <p>08 Nguyễn Chánh - Đà Nẵng </p>
-                  <a
-                    href="#activate"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    Learn More
-                  </a>{" "}
                 </div>
               </div>
             </div>

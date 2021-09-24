@@ -2,7 +2,7 @@ import React from "react";
 const VideoComponent = () => {
   return (
     <div>
-       <h2 className="text1">VIDEO</h2>
+       <h2 className="textt spac">VIDEO</h2>
       <div className="container videoo-text">
         <div className="row">
           <div className="col-md-6 col-xs-6 col-sm-6">

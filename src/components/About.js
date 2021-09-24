@@ -5,7 +5,7 @@ const AboutComponent = () => {
       <div className="container" id="about">
         <div className="row">
           <div className="col-md-9">
-            <h2 className="text1">GIỚI THIỆU</h2>
+            <h2 className="textt">GIỚI THIỆU</h2>
             <div className="container">
               <div className="row card">
                 <div className="col-md-6">
@@ -53,7 +53,7 @@ const AboutComponent = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <h3 className="news text1">TIN TỨC</h3>
+            <h2 className="textt">TIN TỨC</h2>
             <span className="neww">
               <img className="new1" src="trang.jpg" alt="Card_image_cap" /> Cuộc
               thi đai trắng
